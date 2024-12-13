@@ -47,7 +47,6 @@ h1 {
 }
 
 #alpaca-body {
-  background: rgb(201, 194, 194);
   width: 200px;
   height: 120px;
   position: relative;
@@ -149,4 +148,16 @@ h3 {
 .fur-btn {
   display: flex;
   background: salmon;
+}
+
+.fur-grey {
+  background: rgb(201, 194, 194);
+}
+
+.fur-blue {
+  background: rgb(22, 22, 136);
+}
+
+.fur-peanut {
+  background: rgb(177, 132, 73);
 }

@@ -18,7 +18,7 @@ class Alpaca extends React.Component {
     super(props);
     this.state = {
       eyeColor: 'black',
-      furColor: "lightgrey"
+      furColor: "grey"
     };
     this.handleEyeColorChange = this.handleEyeColorChange.bind(this);
   }
@@ -42,7 +42,7 @@ class Alpaca extends React.Component {
                 <div id="left-eye" className={`eye-${this.state.eyeColor}`}></div>
                 <div id="right-eye" className={`eye-${this.state.eyeColor}`}></div>
               </div>
-              <div id="alpaca-body" className="alpaca-entity"></div>
+              <div id="alpaca-body" className={`alpaca-entity fur-${this.state.furColor}`}></div>
               <div id="alpaca-legs" className="alpaca-entity">
                 <div id="front-left-leg"></div>
                 <div id="front-right-leg"></div>
@@ -64,6 +64,7 @@ class Alpaca extends React.Component {
                 <h3>Adjust Fur</h3>
                 <button class="fur-btn" onClick={() => this.handlefurColorChange("blue")}>Give blue fur</button>
                 <button class="fur-btn" onClick={() => this.handlefurColorChange("grey")}>Give grey fur</button>
+                <button class="fur-btn" onClick={() => this.handlefurColorChange("peanut")}>Give peanut fur</button>
               </div>
               </div>
             </div>
