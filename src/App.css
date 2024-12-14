@@ -1,5 +1,6 @@
 body {
   background-color: indianred;
+  margin-bottom: 50px;
 }
 
 h1 {
@@ -18,9 +19,7 @@ h1 {
 
 }
 
-.eye-btn {
-  background: lightsalmon;
-}
+
 
 #alpaca-head {
   background-color: rgb(214, 207, 207);
@@ -148,10 +147,7 @@ h3 {
   text-align: center;
 }
 
-.fur-btn {
-  display: flex;
-  background: lightsalmon;
-}
+
 
 .fur-grey {
   background: rgb(201, 194, 194);
@@ -216,13 +212,39 @@ canvas {
 
 
 
+.eye-btn {
+  background: lightsalmon;
+  margin: 5px;
+}
 
+.eye-btn:active {
+  background-color: #ff895b; 
+  box-shadow: 0 2px #2c0f03(0, 0, 0, 0.2); 
+  transform: translateY(2px);
+}
 
+.fur-btn {
+  display: flex;
+  background: lightsalmon;
+  margin: 5px;
+}
 
+.fur-btn:active {
+  background-color: #ff895b; 
+  box-shadow: 0 2px #2c0f03(0, 0, 0, 0.2); 
+  transform: translateY(2px);
+}
 
 .horn-btn {
   display: flex;
   background: lightsalmon;
+  margin: 5px;
+}
+
+.horn-btn:active {
+  background-color: #ff895b; 
+  box-shadow: 0 2px #2c0f03(0, 0, 0, 0.2); 
+  transform: translateY(2px);
 }
 
 .download-btn {
@@ -234,11 +256,40 @@ canvas {
   border: 2px solid salmon;
 }
 
+.download-btn:active {
+  background-color: rgb(255, 103, 86);
+  box-shadow: 0 2px #2c0f03(0, 0, 0, 0.2); 
+  transform: translateY(2px);
+}
+
 .randomize-btn {
   background: lightsalmon;
+  margin: 5px;
+}
+
+.randomize-btn:active {
+  background-color: #ff895b; 
+  box-shadow: 0 2px #2c0f03(0, 0, 0, 0.2); 
+  transform: translateY(2px);
 }
 
 .reset-btn {
   display: flex;
   background: lightsalmon;
+  margin: 5px;
+  
+  
+}
+
+.reset-btn:active {
+  background-color: #ff895b; 
+  box-shadow: 0 2px #2c0f03(0, 0, 0, 0.2); 
+  transform: translateY(2px);
+}
+
+.btn {
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 10px;
+  
 }
