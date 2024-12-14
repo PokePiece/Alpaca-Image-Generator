@@ -253,7 +253,6 @@ canvas {
   margin: auto;
   top: 25px;
   position: relative;
-  border: 2px solid salmon;
 }
 
 .download-btn:active {
