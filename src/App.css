@@ -23,10 +23,10 @@ h1 {
 }
 
 #alpaca-head {
-  background-color: white;
+  background-color: rgb(214, 207, 207);
   width: 100px;
   height: 100px;
-  border-radius: 50%;
+  border-radius: 46%;
   position: relative;
   left: 40px;
   z-index: 3;
@@ -39,7 +39,7 @@ h1 {
   position: absolute;
   width: 60px;
   height: 50px;;
-  background-color: gray;
+  background-color: rgb(186, 185, 185);
   border-radius: 0% 0% 100% 100%;
   opacity: 100%;
   left: 11px;
@@ -60,9 +60,10 @@ h1 {
   width: 20px;
   height: 20px;
   position: relative;
-  top: 20px;
+  top: 40px;
   left: 20px;
   border-radius: 50%;
+  z-index: 1;
 }
 
 .eye-black {
@@ -84,6 +85,8 @@ h1 {
   position: relative;
   left: 60px;
   border-radius: 50%;
+  top: 20px;
+  z-index: 1;
 }
 
 #front-left-leg {
@@ -147,7 +150,7 @@ h3 {
 
 .fur-btn {
   display: flex;
-  background: salmon;
+  background: lightsalmon;
 }
 
 .fur-grey {
@@ -160,4 +163,82 @@ h3 {
 
 .fur-peanut {
   background: rgb(177, 132, 73);
+}
+
+#mouth {
+  width: 40px;
+  height: 40px;
+  background: rgb(145, 99, 99);    
+  position: relative;
+  top: 5px;
+  left: 30px;
+  border-radius: 50%;
+}
+
+#mouth-former {
+  width: 40px;
+  height: 30px;
+  background: rgb(214, 207, 207);    
+  position: relative;
+  top: px;
+  left: 0px;
+  border-radius: 20%;
+}
+
+#left-horn {
+  background: rgb(214, 207, 207);;
+  width: 20px;
+  height: 80px;
+  position: relative;
+  bottom: 120px;
+}
+
+#right-horn {
+  background: rgb(214, 207, 207);;
+  width: 20px;
+  height: 80px;
+  position: relative;
+  bottom: 200px;
+  left: 80px;
+}
+
+
+canvas {
+  display: block;
+  margin: auto;
+  background-color: white;
+  border: 2px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+.horn-btn {
+  display: flex;
+  background: lightsalmon;
+}
+
+.download-btn {
+  display: flex;
+  background: salmon;
+  margin: auto;
+  top: 25px;
+  position: relative;
+  border: 2px solid salmon;
+}
+
+.randomize-btn {
+  background: lightsalmon;
+}
+
+.reset-btn {
+  display: flex;
+  background: lightsalmon;
 }
